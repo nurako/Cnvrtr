@@ -1,6 +1,5 @@
 ## Cnvrtr
 A simple app to get exchange rates on your favorite crytocurrencies. 
-
 For live version visit [https://cnvrtr.netlify.com/](https://cnvrtr.netlify.com/)
 
 ##
