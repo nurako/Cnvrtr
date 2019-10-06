@@ -15,14 +15,14 @@ function NavigationBar() {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <p>This is a simple project created using <a href="https://reactjs.org/">React</a> during my spare time.</p>
+                    <p><strong>Cnvtr</strong> is a simple project created using <a href="https://reactjs.org/">React</a> during my spare time.</p>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button onClick={() => setModal(false)}>Close</Button>
                 </Modal.Footer>
             </Modal>
             <NavBar expand="lg" bg="dark" variant="dark" sticky="top">
-                <NavBar.Brand>Cnvrtr</NavBar.Brand>
+                <NavBar.Brand><strong>Cnvtr</strong></NavBar.Brand>
                 <Nav className="ml-auto">
                     <Nav.Link onClick={() => setModal(true)} href="">About Project</Nav.Link>
                     <Nav.Link href="https://github.com/nurako/Cnvtr">Source Code</Nav.Link>

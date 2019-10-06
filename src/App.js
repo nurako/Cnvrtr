@@ -6,7 +6,7 @@ import FooterBar from './Components/FooterBar';
 
 function App() {
   return (
-    <div>
+    <div className="bg-secondary">
       <NavigationBar />
       <HeaderContent />
       <MainContent />
