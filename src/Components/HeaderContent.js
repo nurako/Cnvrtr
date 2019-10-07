@@ -8,7 +8,7 @@ function MainContent() {
             <Jumbotron className="text-center">
                 <h1>Hey there!</h1>
                 <p className="mt-3">
-                    This is a simple app to get exchange rates on your favorite crytocurrencies.
+                    This is a simple app to get exchange rates on your favorite cryptocurrencies.
                 </p>
             </Jumbotron>
         </Container>

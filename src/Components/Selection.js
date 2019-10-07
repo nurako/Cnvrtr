@@ -16,7 +16,7 @@ function Selection() {
                 <option value="USD">US Dollar (USD)</option>
             </optgroup>
             <optgroup label="Popular currencies">
-                <option value="BTC" selected="selected">Bitcoin (BTC)</option>
+                <option value="BTC">Bitcoin (BTC)</option>
                 <option value="BCH">Bitcoin Cash (BCH)</option>
                 <option value="BSV">Bitcoin SV (BSV)</option>
                 <option value="DOGE">Dogecoin (DOGE)</option>
@@ -26,7 +26,6 @@ function Selection() {
                 <option value="XMR">Monero (XMR)</option>
             </optgroup>
             <optgroup label="Other currencies">
-                <option value="007">007 (007)</option>
                 <option value="1337">1337 (1337)</option>
                 <option value="1ST">1ST (1ST)</option>
                 <option value="20B">20B (20B)</option>
