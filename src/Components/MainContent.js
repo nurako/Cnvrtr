@@ -141,28 +141,30 @@ function MainContent() {
                         </Col>
                     </Form.Row>
                 </Form>
-                <Collapse in={isLoaded}>
-                    <Table striped bordered hover variant="dark" className="mx-auto w-50 mt-3">
-                        <thead>
-                            <tr>
-                                <th><span id="C1"></span></th>
-                                <th><IoMdArrowRoundForward /></th>
-                                <th><span id="C2"></span></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><span id="Cv1"></span></td>
-                                <td><IoMdArrowRoundForward /></td>
-                                <td><span id="Cv2"></span></td>
-                            </tr>
-                            <tr>
-                                <td colSpan="3">
-                                    Change(last hour) : <span id="CH"></span>{' '}{change?<IoMdArrowRoundUp /> : <IoMdArrowRoundDown />}
-                                </td>
-                            </tr>
-                        </tbody>
-                    </Table>
+                <Collapse appear="true" in={isLoaded}>
+                    <div className="rounded">
+                        <Table striped bordered hover variant="dark" className="mx-auto w-50 mt-3 rounded">
+                            <thead>
+                                <tr>
+                                    <th><span id="C1"></span></th>
+                                    <th><IoMdArrowRoundForward /></th>
+                                    <th><span id="C2"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span id="Cv1"></span></td>
+                                    <td><IoMdArrowRoundForward /></td>
+                                    <td><span id="Cv2"></span></td>
+                                </tr>
+                                <tr>
+                                    <td colSpan="3">
+                                        Change(last hour) : <span id="CH"></span>{' '}{change?<IoMdArrowRoundUp /> : <IoMdArrowRoundDown />}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </Table>
+                    </div>
                 </Collapse>
             </Jumbotron>
         </Container>
