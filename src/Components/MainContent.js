@@ -101,7 +101,7 @@ function MainContent() {
             <Jumbotron className="text-center">
                 <Form className="w-75 mx-auto" onSubmit={handleFormClick}>
                     <Form.Row>
-                        <Col><h4><strong>Convert</strong></h4></Col>
+                        <Col><h3><strong>Convert</strong></h3></Col>
                     </Form.Row>
                     <Form.Row>
                         <Col className="col-md-3 mx-auto">
