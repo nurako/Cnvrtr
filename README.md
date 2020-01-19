@@ -8,4 +8,5 @@ For live version visit [https://cnvrtr.netlify.com/](https://cnvrtr.netlify.om/)
 To run the project application locally perform the following steps:
   - Clone this repository
   - `Cd Cnvrtr` to go into the project root
+  - Run the `npm install` command in a terminal
   - Run the `npm start` command in a terminal
