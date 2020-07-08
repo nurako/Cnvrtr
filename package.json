@@ -6,12 +6,12 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "react": "^16.13.1",
-    "react-bootstrap": "^1.0.1",
+    "react-bootstrap": "^1.1.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
     "react-scripts": "^3.4.1",
     "sweetalert-react": "^0.4.11",
-    "sweetalert2": "^9.15.1",
+    "sweetalert2": "^9.15.2",
     "sweetalert2-react-content": "^2.0.2"
   },
   "scripts": {
